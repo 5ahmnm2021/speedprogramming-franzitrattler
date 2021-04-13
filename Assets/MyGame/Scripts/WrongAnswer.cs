@@ -1,18 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WrongAnswer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Button wrongButton1;
+    public Button wrongButton2;
+
+    public void OnBUttonClick1()
     {
-        
+        wrongButton1.image.color = new Color (255, 0, 0); 
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnBUttonClick2()
     {
-        
+        wrongButton2.image.color = new Color(255, 0, 0);
     }
 }

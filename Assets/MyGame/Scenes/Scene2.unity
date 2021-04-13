@@ -283,7 +283,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 167352627}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1898234993}
+        m_TargetAssemblyTypeName: WrongAnswer, Assembly-CSharp
+        m_MethodName: OnBUttonClick1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &167352627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -838,7 +850,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1538941451}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1898234993}
+        m_TargetAssemblyTypeName: WrongAnswer, Assembly-CSharp
+        m_MethodName: OnBUttonClick2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1538941451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1032,6 +1056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1898234992}
   - component: {fileID: 1898234991}
+  - component: {fileID: 1898234993}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -1065,6 +1090,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1898234993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898234990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ff1111f3fa82445ea0b2ebba776fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wrongButton1: {fileID: 167352626}
+  wrongButton2: {fileID: 1538941450}
 --- !u!1 &2081740449
 GameObject:
   m_ObjectHideFlags: 0
